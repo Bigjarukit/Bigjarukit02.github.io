@@ -2,7 +2,7 @@
   "name": "next-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Bigjarukit.github.io/next-project",
+  "homepage": "https://Bigjarukit.github.io/",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
