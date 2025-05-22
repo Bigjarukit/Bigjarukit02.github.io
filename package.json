@@ -5,11 +5,11 @@
   "homepage": "https://Bigjarukit02.github.io/",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "npm run build && echo '' > out/.nojekyll",
-    "deploy": "gh-pages -d out"
+    "predeploy": "npm run build && echo '' > docs/.nojekyll",
+    "deploy": "gh-pages -d docs"
   },
   "dependencies": {
     "next": "15.3.2",
